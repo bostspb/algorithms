@@ -6,3 +6,6 @@
 
 ### Урок 2. Циклы. Рекурсия. Функции.
 [Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson02/README.md)
+
+### Урок 3. Массивы. Кортежи. Множества. Списки.
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson03/README.md)
