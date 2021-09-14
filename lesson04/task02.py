@@ -23,7 +23,12 @@ prime(1)
 """
 
 
+import cProfile
+import timeit
+
+
 def test_func(func):
+    print(func)
     assert func(1) == 2
     print('Test 1 OK')
     assert func(4) == 7
@@ -31,7 +36,7 @@ def test_func(func):
     assert func(14) == 43
     print('Test 3 OK')
     assert func(42) == 181
-    print('Test 4 OK')
+    print('Test 4 OK\n')
 
 
 def get_prime_number_position_via_sieve_of_eratosthenes(position):
@@ -66,8 +71,45 @@ def get_prime_number_position(position):
     return prime_number
 
 
-c = get_prime_number_position(5)
-print(c)
-test_func(get_prime_number_position)
+def print_time(f_name):
+    print('#### PRINT TIME FOR FUNTION ' + f_name + ' ####')
+    print(timeit.timeit(f_name + '(10)', number=50, globals=globals()))
+    print(timeit.timeit(f_name + '(100)', number=50, globals=globals()))
+    print(timeit.timeit(f_name + '(500)', number=50, globals=globals()))
+    print(timeit.timeit(f_name + '(750)', number=50, globals=globals()))
+    print(timeit.timeit(f_name + '(1000)', number=50, globals=globals()))
+    print('')
+
+
+def print_profile(f_name):
+    print('==== PRINT PROFILE FOR FUNTION ' + f_name + ' ====')
+    cProfile.run(f_name + '(10)')
+    cProfile.run(f_name + '(100)')
+    cProfile.run(f_name + '(500)')
+    cProfile.run(f_name + '(750)')
+    cProfile.run(f_name + '(1000)')
+    print('')
+
+
+def main():
+    test_func(get_prime_number_position_via_sieve_of_eratosthenes)
+    test_func(get_prime_number_position)
+
+    print_time('get_prime_number_position_via_sieve_of_eratosthenes')
+    print_time('get_prime_number_position')
+
+    print_profile('get_prime_number_position_via_sieve_of_eratosthenes')
+    print_profile('get_prime_number_position')
+
+
+main()
+
+"""
+Результаты замеров находятся в файле task02_log.txt
+Анализируя код алгоритмов, можно сделать вывод, что у обоих алгоритмов квадратичная сложность O(N^2), 
+т.к. там используется два вложенных цикла. Однако по результатам замеров второй алгоритм показывает лучшие значения. 
+Профайлинг функций не выявил явных проблем, кроме медленной скорости выполнения первого алгоритма.
+"""
+
 
 

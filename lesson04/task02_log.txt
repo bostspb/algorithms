@@ -1,0 +1,147 @@
+<function get_prime_number_position_via_sieve_of_eratosthenes at 0x00000219FD9CEB80>
+Test 1 OK
+Test 2 OK
+Test 3 OK
+Test 4 OK
+
+<function get_prime_number_position at 0x00000219FD9CEC10>
+Test 1 OK
+Test 2 OK
+Test 3 OK
+Test 4 OK
+
+#### PRINT TIME FOR FUNTION get_prime_number_position_via_sieve_of_eratosthenes ####
+0.0004003999999999987
+0.0489584
+1.8425414
+4.4788860999999995
+8.5576078
+
+#### PRINT TIME FOR FUNTION get_prime_number_position ####
+0.00033829999999923643
+0.030343500000000745
+1.0574536000000005
+2.579201600000001
+4.876615900000001
+
+==== PRINT PROFILE FOR FUNTION get_prime_number_position_via_sieve_of_eratosthenes ====
+         5 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 task02.py:42(get_prime_number_position_via_sieve_of_eratosthenes)
+        1    0.000    0.000    0.000    0.000 task02.py:44(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.001    0.001    0.001    0.001 task02.py:42(get_prime_number_position_via_sieve_of_eratosthenes)
+        1    0.000    0.000    0.000    0.000 task02.py:44(<listcomp>)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.034 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.034    0.034 <string>:1(<module>)
+        1    0.026    0.026    0.032    0.032 task02.py:42(get_prime_number_position_via_sieve_of_eratosthenes)
+        1    0.006    0.006    0.006    0.006 task02.py:44(<listcomp>)
+        1    0.000    0.000    0.034    0.034 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.088 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004    0.088    0.088 <string>:1(<module>)
+        1    0.067    0.067    0.084    0.084 task02.py:42(get_prime_number_position_via_sieve_of_eratosthenes)
+        1    0.016    0.016    0.016    0.016 task02.py:44(<listcomp>)
+        1    0.000    0.000    0.088    0.088 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.185 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.007    0.007    0.185    0.185 <string>:1(<module>)
+        1    0.147    0.147    0.177    0.177 task02.py:42(get_prime_number_position_via_sieve_of_eratosthenes)
+        1    0.030    0.030    0.030    0.030 task02.py:44(<listcomp>)
+        1    0.000    0.000    0.185    0.185 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+==== PRINT PROFILE FOR FUNTION get_prime_number_position ====
+         4 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 task02.py:58(get_prime_number_position)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         4 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.001    0.001    0.001    0.001 task02.py:58(get_prime_number_position)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         4 function calls in 0.021 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.021    0.021 <string>:1(<module>)
+        1    0.021    0.021    0.021    0.021 task02.py:58(get_prime_number_position)
+        1    0.000    0.000    0.021    0.021 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         4 function calls in 0.051 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.051    0.051 <string>:1(<module>)
+        1    0.051    0.051    0.051    0.051 task02.py:58(get_prime_number_position)
+        1    0.000    0.000    0.051    0.051 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         4 function calls in 0.097 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.097    0.097 <string>:1(<module>)
+        1    0.097    0.097    0.097    0.097 task02.py:58(get_prime_number_position)
+        1    0.000    0.000    0.097    0.097 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+
+
+Process finished with exit code 0
