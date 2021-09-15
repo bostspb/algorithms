@@ -9,3 +9,9 @@
 
 ### Урок 3. Массивы. Кортежи. Множества. Списки.
 [Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson03/README.md)
+
+### Урок 4. Эмпирическая оценка алгоритмов на Python.
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson04/README.md)
+
+### Урок 5. Коллекции. Список. Очередь. Словарь.
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson05/README.md)
