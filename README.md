@@ -15,3 +15,6 @@
 
 ### Урок 5. Коллекции. Список. Очередь. Словарь.
 [Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson05/README.md)
+
+### Урок 6. Работа с динамической памятью
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson06/README.md)
