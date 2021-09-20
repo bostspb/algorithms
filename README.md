@@ -18,3 +18,6 @@
 
 ### Урок 6. Работа с динамической памятью
 [Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson06/README.md)
+
+### Урок 7. Алгоритмы сортировки
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson07/README.md)
