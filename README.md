@@ -21,3 +21,6 @@
 
 ### Урок 7. Алгоритмы сортировки
 [Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson07/README.md)
+
+### Урок 8. Деревья. Хэш-функция
+[Решенные задачи](https://github.com/bostspb/algorithms/blob/master/lesson08/README.md)
